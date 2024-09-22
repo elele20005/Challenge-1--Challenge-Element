@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #003366;
+}
+
+p {
+    color:white;
+}
+
+/* Header */
+.header {
+    background-color: #2a607c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-bar ul li {
+    margin-left: 20px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    height: 690px;
+    margin-bottom: 20px;
+}
+
+/* Main content */
+.content {
+    display: block;
+    justify-content: space-between;
+    margin: 0 2em;
+    padding: 2em;
+    background-color: white;
+}
+
+.content-item {
+    width: 45%;
+    padding: 20px;
+    background-color: #0c88db;
+    margin-bottom: 20px;
+    color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-item h2 {
+    color: #f7f8f8;
+}
+
+.side-info {
+    width: 30%;
+    padding: 2em;
+}
+
+.side-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #0c88db;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.main-footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
